@@ -321,6 +321,7 @@ print(f"""
 """)
 askmom = input("-> ")
 if askmom == "1":
+    clear()
     print(f"""
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
 ║Wow das ist Toll, wie hast du den das geschafft?                                   ║
@@ -412,6 +413,7 @@ Du gehst jetzt ins Bett.
 ||         ||
 ''         '' 
 """)
+enter()
 print("Du wachst ganz ausgeschlafen auf und schaust auf deinen Kalender und siehst:")
 print("""
 ╔════╗ 
@@ -419,6 +421,7 @@ print("""
 ╚════╝
 Jaaaaa, es ist der 11. Juni... Das heist ich kann mich voll und ganz auf die Hühner konzentrieren.
 """)
+enter()
 clear()
 print("Du läufst aus dem Haus und was siehst du??")
 print("""Deinen Erzfeind Martin
@@ -441,3 +444,7 @@ print("""Deinen Erzfeind Martin
 Hallo ich habe gesehen, dass du Cock-E-Mons hast... Ich fordere dich zu einem Duell aus.
 """)
 enter()
+if bohus == 1:
+    print(f"""Du wählst dein {"stats_bohus"['name']}""")
+elif bohus == 1:
+    print(f"""Du wählst dein {"stats_bohus"['name']}""")
