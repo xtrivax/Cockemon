@@ -75,7 +75,7 @@ print("""
 ║                                     '.    .'                                      ║
 ║                                     _|`~~`|_                                      ║
 ║                                     /|\  /|\\                                      ║ 
-║Hallo, mein Name ist Kiri das Küken und da ich nicht Männlich bin,                 ║
+║Hallo, mein Name ist Kiri das Küken und da ich nicht männlich bin,                 ║
 ║wurde ich noch nicht geschreddert.                                                 ║
 ║Ich werde dich durch diese Spielwelt begleiten.                                    ║
 ║Ich bin zu jung zum Kämpfen aber ich helfe dir gerne.                              ║
