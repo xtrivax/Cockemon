@@ -159,7 +159,7 @@ stats_dänischer_landhahn = {
     """,
     "health": 100,
     "atk1": ["Schwanzwedler", 1],
-    "atk2": ["Kratzer", 2],
+    "atk2": ["Kratzer", 1.5],
     "atk3": ["Schrei", 1]
 }
 stats_deutscher_lachshan = {
@@ -179,9 +179,9 @@ stats_deutscher_lachshan = {
                        
     """,
     "health": 50,
-    "atk1": ["Schwanzwedler", 2],
-    "atk2": ["Kratzer", 3],
-    "atk3": ["Schrei", 2]
+    "atk1": ["Schwanzwedler", 1.5],
+    "atk2": ["Kratzer", 1.75],
+    "atk3": ["Schrei", 1.50]
 }
 
 
@@ -457,3 +457,15 @@ elif bohus == 2:
 else:
     print(f"""Du wählst dein {stats_deutscher_lachshan['name']}.""")
     print(f"Du:    Mein mächtiger Deutscher Lachshahn wird dich vernichten!")
+print("""HAHAHA du kannst gar mit deinem Cock-E-Mon gar nichts gegen mein Cock-E-Mon ausrichten.
+Ich wähle Indischer Mammut Hahn""")
+time.sleep(2)
+print("""Was willst du für eine Attacke einsetzen?
+1   |   Kratzen
+2   |   Schnabel
+3   |   Schrei"""
+kampf = input(-> )
+if kampf == "1":
+    randkampf = random.randrange(1, 50)
+    print("Du hast deinen Gegner gekratzt.")
+    print(f"Er hat ")
