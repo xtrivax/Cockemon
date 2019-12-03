@@ -413,4 +413,11 @@ Du gehst jetzt ins Bett.
 ''         '' 
 """)
 print("Du wachst ganz ausgeschlafen auf und schaust auf deinen Kalender und siehst:")
-print(" ")
+print("""
+╔════════╗ 
+║  /|    ║
+║ / |    ║
+║   |    ║    
+╚════════╝
+Jaaaaa, es ist der 1. Juni... Das heist ich kann mich voll und ganz auf die Hühner konzentrieren.
+""")
