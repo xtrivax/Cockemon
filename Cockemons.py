@@ -2,7 +2,9 @@
 import time
 import sys
 import random
-
+bohus = 0
+dänischer_landhahn = 0
+deutscherlachshahn = 0
 def delay_print_fast(s):
     for c in s:
         sys.stdout.write(c)
@@ -414,6 +416,7 @@ Du gehst jetzt ins Bett.
 ''         '' 
 """)
 enter()
+clear()
 print("Du wachst ganz ausgeschlafen auf und schaust auf deinen Kalender und siehst:")
 print("""
 ╔════╗ 
@@ -444,7 +447,13 @@ print("""Deinen Erzfeind Martin
 Hallo ich habe gesehen, dass du Cock-E-Mons hast... Ich fordere dich zu einem Duell aus.
 """)
 enter()
+clear()
 if bohus == 1:
-    print(f"""Du wählst dein {"stats_bohus"['name']}""")
-elif bohus == 1:
-    print(f"""Du wählst dein {"stats_bohus"['name']}""")
+    print(f"""Du wählst dein {stats_bohus['name']}.""")
+    print(f"Du:   Mein mächtiger Schwedischer Bohus-Dal Schwarzhahn wird dich vernichten!")
+elif bohus == 2:
+    print(f"""Du wählst dein {stats_dänischer_landhahn['name']}.""")
+    print(f"D:   Mein mächtiger Dänischer Landhahn wird dich vernichten!")
+else:
+    print(f"""Du wählst dein {stats_deutscher_lachshan['name']}.""")
+    print(f"Du:    Mein mächtiger Deutscher Lachshahn wird dich vernichten!")
