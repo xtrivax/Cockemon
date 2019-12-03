@@ -14,7 +14,7 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.02)
 import os
-clear = lambda: os.system('clear') #on Linux System
+clear = lambda: os.system('clear') #on Linux System for Win change clear to cls
 clear()
 delay_print_fast("""
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
@@ -414,10 +414,10 @@ Du gehst jetzt ins Bett.
 """)
 print("Du wachst ganz ausgeschlafen auf und schaust auf deinen Kalender und siehst:")
 print("""
-╔════════╗ 
-║  /|    ║
-║ / |    ║
-║   |    ║    
-╚════════╝
-Jaaaaa, es ist der 1. Juni... Das heist ich kann mich voll und ganz auf die Hühner konzentrieren.
+╔════╗ 
+║ 11 ║    
+╚════╝
+Jaaaaa, es ist der 11. Juni... Das heist ich kann mich voll und ganz auf die Hühner konzentrieren.
 """)
+clear()
+print("Du läufst ")
