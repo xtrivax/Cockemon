@@ -420,4 +420,24 @@ print("""
 Jaaaaa, es ist der 11. Juni... Das heist ich kann mich voll und ganz auf die Hühner konzentrieren.
 """)
 clear()
-print("Du läufst ")
+print("Du läufst aus dem Haus und was siehst du??")
+print("""Deinen Erzfeind Martin
+      .--.
+    ________
+      |Oo|
+      |()|
+      | -}
+ .----\\""/----.
+ |     \/     |
+ | |    .   | |
+ | |    .   | |____/__
+ \ \    .   (_____/_=
+  \ \       \\
+   \/\=[]===)
+   (""\     |
+   |   |_/  |
+   |   |    |
+
+Hallo ich habe gesehen, dass du Cock-E-Mons hast... Ich fordere dich zu einem Duell aus.
+""")
+enter()
