@@ -499,6 +499,7 @@ Martin:   Ahh... dieses mal hast du mich besiegt
           Aber das nägste Mal werde ich dich zerstören
 
             """)
+            done = 1
     elif kampf == "2":
         randkampf = random.randrange(1, 50)
         print("Du hast deinen Gegner gebissen.")
@@ -528,6 +529,7 @@ Martin:   Ahh... dieses mal hast du mich besiegt
           Aber das nägste Mal werde ich dich zerstören
           
             """)
+            done = 1
     elif kampf == "3":
         randkampf = random.randrange(1, 20)
         print("Du hast deinen Gegner angebrüllt.")
@@ -557,6 +559,7 @@ Martin:   Ahh... dieses mal hast du mich besiegt
           Aber das nägste Mal werde ich dich zerstören
           
             """)
+            done = 1
     else:
                 print("Du hast verfehlt")
     if done == 0:
@@ -589,6 +592,7 @@ Martin:   Ahh... dieses mal hast du mich besiegt
     Martin:   Haha ich habe dich zerstört   
 
                 """)
+                done = 1
         elif kampf == 2:
             randkampf = random.randrange(1, 50)
             print("Dein Gegner hat dich gebissen.")
@@ -617,6 +621,7 @@ Martin:   Ahh... dieses mal hast du mich besiegt
     Martin:   Haha ich habe dich zerstört
 
                 """)
+                done = 1
         elif kampf == 3:
             randkampf = random.randrange(1, 10)
             print("Dein Gegner hat dich angebrüllt.")
@@ -645,5 +650,6 @@ Martin:   Ahh... dieses mal hast du mich besiegt
     Martin:   Haha ich habe dich zerstört
 
                 """)
+                done = 1
         else:
                     print("Du hast verfehlt")
