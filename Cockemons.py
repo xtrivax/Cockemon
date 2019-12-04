@@ -459,13 +459,191 @@ else:
     print(f"Du:    Mein mächtiger Deutscher Lachshahn wird dich vernichten!")
 print("""HAHAHA du kannst gar mit deinem Cock-E-Mon gar nichts gegen mein Cock-E-Mon ausrichten.
 Ich wähle Indischer Mammut Hahn""")
+health_me = 100
+health_enemy = 100
 time.sleep(2)
-print("""Was willst du für eine Attacke einsetzen?
-1   |   Kratzen
-2   |   Schnabel
-3   |   Schrei"""
-kampf = input(-> )
-if kampf == "1":
-    randkampf = random.randrange(1, 50)
-    print("Du hast deinen Gegner gekratzt.")
-    print(f"Er hat ")
+done = 0
+while done == 0:
+    print("""Was willst du für eine Attacke einsetzen?
+    1   |   Kratzen
+    2   |   Schnabel
+    3   |   Schrei
+    """)
+    kampf = input("-> ")
+    if kampf == "1":
+        randkampf = random.randrange(1, 50)
+        print("Du hast deinen Gegner gekratzt.")
+        print(f"Er hat {randkampf} Schaden gemacht.")
+        health_enemy = (health_enemy - randkampf)
+        if health_enemy > 0:
+            print(f"Der Gegner hat noch {health_enemy} Leben")
+        else:
+            print("Dein Gegner ist Tot.")
+            print("""
+      .--.
+    _______
+      |Oo|
+      |()|
+      | -}
+ .----\\""/----.
+ |     \/     |
+ | |    .   | |
+ | |    .   | |____/__
+ \ \    .   (_____/_=
+  \ \       \\
+   \/\=[]===)
+   (""\     |
+   |   |_/  |
+   |   |    |
+Martin:   Ahh... dieses mal hast du mich besiegt
+          Aber das nägste Mal werde ich dich zerstören
+
+            """)
+    elif kampf == "2":
+        randkampf = random.randrange(1, 50)
+        print("Du hast deinen Gegner gebissen.")
+        print(f"Er hat {randkampf} Schaden gemacht.")
+        health_enemy = (health_enemy - randkampf)
+        if health_enemy > 0:
+            print(f"Der Gegner hat noch {health_enemy} Leben")
+        else:
+            print("Dein Gegner ist Tot.")
+            print("""
+      .--.
+    _______
+      |Oo|
+      |()|
+      | -}
+ .----\\""/----.
+ |     \/     |
+ | |    .   | |
+ | |    .   | |____/__
+ \ \    .   (_____/_=
+  \ \       \\
+   \/\=[]===)
+   (""\     |
+   |   |_/  |
+   |   |    |
+Martin:   Ahh... dieses mal hast du mich besiegt
+          Aber das nägste Mal werde ich dich zerstören
+          
+            """)
+    elif kampf == "3":
+        randkampf = random.randrange(1, 20)
+        print("Du hast deinen Gegner angebrüllt.")
+        print(f"Er hat {randkampf} Schaden gemacht.")
+        health_enemy = (health_enemy - randkampf)
+        if health_enemy > 0:
+            print(f"Der Gegner hat noch {health_enemy} Leben")
+        else:
+            print("Dein Gegner ist Tot.")
+            print("""
+      .--.
+    _______
+      |Oo|
+      |()|
+      | -}
+ .----\\""/----.
+ |     \/     |
+ | |    .   | |
+ | |    .   | |____/__
+ \ \    .   (_____/_=
+  \ \       \\
+   \/\=[]===)
+   (""\     |
+   |   |_/  |
+   |   |    |
+Martin:   Ahh... dieses mal hast du mich besiegt
+          Aber das nägste Mal werde ich dich zerstören
+          
+            """)
+    else:
+                print("Du hast verfehlt")
+    if done == 0:
+        kampf = random.randrange(1, 4)
+        if kampf == 1:
+            randkampf = random.randrange(1, 50)
+            print("Der Gegner hat dich gekratzt.")
+            print(f"Er hat {randkampf} Schaden gemacht.")
+            health_me = (health_me - randkampf)
+            if health_me > 0:
+                print(f"Du hast noch {health_me} Leben")
+            else:
+                print("Dein Huhn ist Kampfunfähig.")
+                print("""
+          .--.
+        _______
+          |Oo|
+          |()|
+          | -}
+     .----\\""/----.
+     |     \/     |
+     | |    .   | |
+     | |    .   | |____/__
+     \ \    .   (_____/_=
+      \ \       \\
+       \/\=[]===)
+       (""\     |
+       |   |_/  |
+       |   |    |
+    Martin:   Haha ich habe dich zerstört   
+
+                """)
+        elif kampf == 2:
+            randkampf = random.randrange(1, 50)
+            print("Dein Gegner hat dich gebissen.")
+            print(f"Er hat {randkampf} Schaden gemacht.")
+            health_me = (health_me - randkampf)
+            if health_me > 0:
+                print(f"Du hast noch {health_enemy} Leben")
+            else:
+                print("Du bist Kampfunfähig")
+                print("""
+          .--.
+        _______
+          |Oo|
+          |()|
+          | -}
+     .----\\""/----.
+     |     \/     |
+     | |    .   | |
+     | |    .   | |____/__
+     \ \    .   (_____/_=
+      \ \       \\
+       \/\=[]===)
+       (""\     |
+       |   |_/  |
+       |   |    |
+    Martin:   Haha ich habe dich zerstört
+
+                """)
+        elif kampf == 3:
+            randkampf = random.randrange(1, 10)
+            print("Dein Gegner hat dich angebrüllt.")
+            print(f"Er hat {randkampf} Schaden gemacht.")
+            health_me = (health_me - randkampf)
+            if health_me > 0:
+                print(f"Du hast noch {health_me} Leben")
+            else:
+                print("Dein Gegner ist Tot.")
+                print("""
+          .--.
+        _______
+          |Oo|
+          |()|
+          | -}
+     .----\\""/----.
+     |     \/     |
+     | |    .   | |
+     | |    .   | |____/__
+     \ \    .   (_____/_=
+      \ \       \\
+       \/\=[]===)
+       (""\     |
+       |   |_/  |
+       |   |    |
+    Martin:   Haha ich habe dich zerstört
+
+                """)
+        else:
+                    print("Du hast verfehlt")
