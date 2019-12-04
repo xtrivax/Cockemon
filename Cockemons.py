@@ -464,7 +464,13 @@ health_enemy = 100
 time.sleep(2)
 done = 0
 while done == 0:
-    print("""Was willst du für eine Attacke einsetzen?
+    hpbarme = health_me // 10
+    hpbarenemy = health_enemy // 10
+    print(f"""
+    Leben deines Cockemons      : |{hpbarme * "█": <10}|
+    Leben gegnerisches Cockemons: |{hpbarenemy * "█": <10}|
+    
+    Was willst du für eine Attacke einsetzen?
     1   |   Kratzen
     2   |   Schnabel
     3   |   Schrei
